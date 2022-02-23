@@ -42,3 +42,7 @@ equal.addEventListener("click", () => {
     }
 });
 
+//Clear whole input
+clear.addEventListener("click", () => {
+    input.value = "";
+});
